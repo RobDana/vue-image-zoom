@@ -2,7 +2,7 @@
   transition(name="image-zoom-fade", @before-enter="lockScroll")
     .__image-zoom__modal(v-show="visible", @click="modalClicked", :id="id")
       .__image-zoom__close-container
-        button.__image-zoom__button.__image-zoom__close-button(@click.stop="openExternal") ↗
+        
         button.__image-zoom__button.__image-zoom__close-button(@click.stop="close") &times;
       .__image-zoom__img-outer-container(:style="{ display: verticalCenter ? 'table' : 'block' }")
         .__image-zoom__img-inner-container(:style="{ display: verticalCenter ? 'table-cell' : 'block' }")
