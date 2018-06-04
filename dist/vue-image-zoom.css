@@ -10,16 +10,15 @@
   background: rgba(0, 0, 0, 0.1);
 }
 .__image-zoom__button:first-child {
-  display: none;
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
 }
 .__image-zoom__button:last-child {
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px;
 }
 .__image-zoom__button:nth-child(n+2) {
-  
+  border-left: 0;
 }
 .__image-zoom__modal {
   position: fixed;
