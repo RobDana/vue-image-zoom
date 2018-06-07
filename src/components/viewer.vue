@@ -138,7 +138,7 @@ export default {
         }
         
         // Step 3: Set scale
-        this.setScale(currentScale);
+        this.setScale(defaultScaleLevel);
       }
     },
 
