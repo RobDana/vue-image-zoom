@@ -17,7 +17,7 @@
 <script>
 
 const scaleList = [10, 25, 30, 33, 40, 50, 60, 67, 75, 90, 100, 110, 125, 150, 200, 250, 300, 400, 600, 800];
-const defaultScaleLevel = 25;
+const defaultScaleLevel = 14;
 
 export default {
   data () {
